@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects — Arushi Sarkar</title>
+    <meta name="description" content="Projects by Arushi Sarkar spanning AI, machine learning, cloud, mobile, security, and automation.">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%237c6cf6'/%3E%3Cstop offset='1' stop-color='%2322d3ee'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='100' height='100' rx='24' fill='url(%23g)'/%3E%3Ctext x='50' y='67' font-family='Arial,sans-serif' font-weight='700' font-size='46' fill='%2306070a' text-anchor='middle'%3EAS%3C/text%3E%3C/svg%3E">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <span class="logo-mark">AS</span>
+                <span class="logo-text">Arushi Sarkar</span>
+            </a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="projects.html" class="nav-link active">Projects</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+                <li><a href="contact.html" class="nav-cta">Let's Talk</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="eyebrow" style="justify-content:center;">Selected Work</div>
+            <h1 class="page-title">My Projects</h1>
+            <p class="page-subtitle">Twelve builds spanning AI, machine learning, cloud, mobile, security, and
+                automation — click any card for the full breakdown.</p>
+        </div>
+    </section>
+
+    <!-- Project Filter -->
+    <section class="project-filter">
+        <div class="container">
+            <div class="filter-tabs">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="ai">AI &amp; ML</button>
+                <button class="filter-btn" data-filter="web">Web Dev</button>
+                <button class="filter-btn" data-filter="mobile">Mobile</button>
+                <button class="filter-btn" data-filter="security">Security</button>
+                <button class="filter-btn" data-filter="automation">Automation</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Grid -->
+    <section class="projects-section">
+        <div class="container">
+            <div class="projects-grid">
+
+                <!-- Medical Diagnosis Chatbot -->
+                <div class="project-card featured card" data-category="ai" data-reveal>
+                    <div class="project-image">
+                        <div class="project-icons">
+                            <i class="fas fa-stethoscope"></i>
+                            <i class="fas fa-robot"></i>
+                            <i class="fas fa-comment-medical"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3 class="project-title">Medical Diagnosis &amp; Appointment Chatbot</h3>
+                            <span class="project-badge ai-badge">AI/ML</span>
+                        </div>
+                        <p class="project-description">
+                            Symptom-based disease classifier achieving 98% accuracy across 25 classes, paired with a
+                            RAG pipeline and a conversational appointment assistant.
+                        </p>
+                        <div class="project-features">
+                            <span class="feature">98% Accuracy</span>
+                            <span class="feature">RAG Pipeline</span>
+                            <span class="feature">Conversational AI</span>
+                        </div>
+                        <div class="project-tech-stack">
+                            <span class="tech-tag">TF-IDF</span>
+                            <span class="tech-tag">ChromaDB</span>
+                            <span class="tech-tag">Llama 3</span>
+                            <span class="tech-tag">Dialogflow CX</span>
+                            <span class="tech-tag">BigQuery</span>
+                        </div>
+                        <div class="project-actions">
+                            <button class="btn btn-primary btn-sm project-details-btn" data-project="medchatbot">
+                                <i class="fas fa-info-circle"></i>
+                                View Details
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SkinScan AI Platform -->
+                <div class="project-card featured card" data-category="ai web" data-reveal>
+                    <div class="project-image">
+                        <div class="project-icons">
+                            <i class="fab fa-aws"></i>
+                            <i class="fas fa-robot"></i>
+                            <i class="fab fa-python"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3 class="project-title">SkinScan AI Platform</h3>
+                            <span class="project-badge web-badge">Web Dev</span>
+                        </div>
+                        <p class="project-description">
+                            Personalised skincare platform with AI-driven skin analysis for teenagers, built on
+                            scalable AWS infrastructure.
+                        </p>
+                        <div class="project-features">
+                            <span class="feature">AI Skin Analysis</span>
+                            <span class="feature">AWS Integration</span>
+                            <span class="feature">Multi-language</span>
+                        </div>
+                        <div class="project-tech-stack">
+                            <span class="tech-tag">AWS Rekognition</span>
+                            <span class="tech-tag">Lambda</span>
+                            <span class="tech-tag">API Gateway</span>
+                            <span class="tech-tag">CloudFront</span>
+                        </div>
+                        <div class="project-actions">
+                            <button class="btn btn-primary btn-sm project-details-btn" data-project="skinscan">
+                                <i class="fas fa-info-circle"></i>
+                                View Details
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Flower Classification -->
+                <div class="project-card card" data-category="ai" data-reveal>
+                    <div class="project-image">
+                        <div class="project-icons">
+                            <i class="fas fa-seedling"></i>
+                            <i class="fas fa-layer-group"></i>
+                            <i class="fab fa-python"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3 class="project-title">Flower Classification with Deep Learning</h3>
+                            <span class="project-badge ai-badge">AI/ML</span>
+                        </div>
+                        <p class="project-description">
+                            Custom CNN baseline improved via transfer learning and a weighted ensemble, reaching
+                            92.72% accuracy.
+                        </p>
+                        <div class="project-features">
+                            <span class="feature">92.72% Accuracy</span>
+                            <span class="feature">Transfer Learning</span>
+                            <span class="feature">Model Ensembling</span>
+                        </div>
+                        <div class="project-tech-stack">
+                            <span class="tech-tag">CNN</span>
+                            <span class="tech-tag">ResNet50</span>
+                            <span class="tech-tag">EfficientNetB0</span>
+                        </div>
+                        <div class="project-actions">
+                            <button class="btn btn-primary btn-sm project-details-btn" data-project="flowers">
+                                <i class="fas fa-info-circle"></i>
+                                View Details
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SustainScore Mobile App -->
+                <div class="project-card card" data-category="mobile ai" data-reveal>
+                    <div class="project-image">
+                        <div class="project-icons">
+                            <i class="fas fa-mobile-alt"></i>
+                            <i class="fas fa-leaf"></i>
+                            <i class="fab fa-flutter"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3 class="project-title">SustainScore Mobile App</h3>
+                            <span class="project-badge mobile-badge">Mobile</span>
+                        </div>
+                        <p class="project-description">
+                            Flutter sustainability tracker helping users cut water, electricity, and plastic use
+                            through gamification.
+                        </p>
+                        <div class="project-features">
+                            <span class="feature">Usage Tracking</span>
+                            <span class="feature">Gamification</span>
+                            <span class="feature">Biometric Auth</span>
+                        </div>
+                        <div class="project-tech-stack">
+                            <span class="tech-tag">Flutter</span>
+                            <span class="tech-tag">Dart</span>
+                            <span class="tech-tag">Firebase</span>
+                        </div>
+                        <div class="project-actions">
+                            <button class="btn btn-primary btn-sm project-details-btn" data-project="sustainscore">
+                                <i class="fas fa-info-circle"></i>
+                                View Details
+                            </button>
+                            <a href="https://youtu.be/ldIyxv5RQfs" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                                <i class="fas fa-play"></i>
+                                Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Flight Price Prediction -->
+                <div class="project-card card" data-category="ai" data-reveal>
+                    <div class="project-image">
+                        <div class="project-icons">
+                            <i class="fas fa-plane"></i>
+                            <i class="fas fa-chart-line"></i>
+                            <i class="fab fa-python"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3 class="project-title">Flight Price Predictor</h3>
+                            <span class="project-badge ai-badge">AI/ML</span>
+                        </div>
+                        <p class="project-description">
+                            Gradient Boosting model predicting flight prices on 10,000+ records, deployed as a live
+                            web app.
+                        </p>
+                        <div class="project-features">
+                            <span class="feature">R&sup2; = 0.81</span>
+                            <span class="feature">Real-time Predictions</span>
+                            <span class="feature">Feature Engineering</span>
+                        </div>
+                        <div class="project-tech-stack">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Scikit-learn</span>
+                            <span class="tech-tag">Gradient Boosting</span>
+                        </div>
+                        <div class="project-actions">
+                            <button class="btn btn-primary btn-sm project-details-btn" data-project="flightprice">
+                                <i class="fas fa-info-circle"></i>
+                                View Details
+                            </button>
+                            <a href="https://fihba97vh88acpvvaqgmsx.streamlit.app/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                                <i class="fas fa-play"></i>
+                                Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Invoice Processing Automation -->
+                <div class="project-card card" data-category="automation" data-reveal>
+                    <div class="project-image">
+                        <div class="project-icons">
+                            <i class="fas fa-robot"></i>
+                            <i class="fas fa-file-invoice"></i>
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3 class="project-title">Invoice Processing RPA</h3>
+                            <span class="project-badge automation-badge">Automation</span>
+                        </div>
+                        <p class="project-description">
+                            UiPath automation integrating multiple applications to streamline finance and
+                            procurement workflows.
+                        </p>
+                        <div class="project-features">
+                            <span class="feature">Multi-app Integration</span>
+                            <span class="feature">Orchestrator Triggers</span>
+                        </div>
+                        <div class="project-tech-stack">
+                            <span class="tech-tag">UiPath</span>
+                            <span class="tech-tag">Orchestrator</span>
+                        </div>
+                        <div class="project-actions">
+                            <button class="btn btn-primary btn-sm project-details-btn" data-project="rpa">
+                                <i class="fas fa-info-circle"></i>
+                                View Details
+                            </button>
+                            <a href="https://youtu.be/W3onMh5fLLU" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                                <i class="fas fa-play"></i>
+                                Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Windows Security Hardening -->
+                <div class="project-card card" data-category="security" data-reveal>
+                    <div class="project-image">
+                        <div class="project-icons">
+                            <i class="fas fa-shield-alt"></i>
+                            <i class="fab fa-windows"></i>
+                            <i class="fas fa-lock"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3 class="project-title">Windows Security Hardening</h3>
+                            <span class="project-badge security-badge">Security</span>
+                        </div>
+                        <p class="project-description">
+                            CIS Benchmarking implementation with SSL/TLS-secured network services and firewall
+                            configuration.
+                        </p>
+                        <div class="project-features">
+                            <span class="feature">CIS Benchmarking</span>
+                            <span class="feature">SSL/TLS Config</span>
+                        </div>
+                        <div class="project-tech-stack">
+                            <span class="tech-tag">Windows 11</span>
+                            <span class="tech-tag">IIS</span>
+                            <span class="tech-tag">SSL/TLS</span>
+                        </div>
+                        <div class="project-actions">
+                            <button class="btn btn-primary btn-sm project-details-btn" data-project="security">
+                                <i class="fas fa-info-circle"></i>
+                                View Details
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Data Analytics & ML Workflow -->
+                <div class="project-card card" data-category="ai" data-reveal>
+                    <div class="project-image">
+                        <div class="project-icons">
+                            <i class="fas fa-chart-bar"></i>
+                            <i class="fas fa-database"></i>
+                            <i class="fas fa-brain"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3 class="project-title">Data Analytics Workflow</h3>
+                            <span class="project-badge ai-badge">AI/ML</span>
+                        </div>
+                        <p class="project-description">
+                            89,000-row analysis using KNIME and Power BI, implementing K-means clustering and
+                            predictive modelling.
+                        </p>
+                        <div class="project-features">
+                            <span class="feature">89K Records</span>
+                            <span class="feature">K-means Clustering</span>
+                        </div>
+                        <div class="project-tech-stack">
+                            <span class="tech-tag">KNIME</span>
+                            <span class="tech-tag">Power BI</span>
+                        </div>
+                        <div class="project-actions">
+                            <button class="btn btn-primary btn-sm project-details-btn" data-project="dataanalytics">
+                                <i class="fas fa-info-circle"></i>
+                                View Details
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- IBM Watson Ethics Case Study -->
+                <div class="project-card card" data-category="ai" data-reveal>
+                    <div class="project-image">
+                        <div class="project-icons">
+                            <i class="fas fa-scale-balanced"></i>
+                            <i class="fas fa-hospital"></i>
+                            <i class="fas fa-magnifying-glass"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3 class="project-title">IBM Watson for Oncology: AI Ethics Case Study</h3>
+                            <span class="project-badge ai-badge">Case Study</span>
+                        </div>
+                        <p class="project-description">
+                            Analysed three key ethical failures across 230+ hospitals and proposed governance
+                            solutions.
+                        </p>
+                        <div class="project-features">
+                            <span class="feature">230+ Hospitals</span>
+                            <span class="feature">Root Cause Analysis</span>
+                        </div>
+                        <div class="project-tech-stack">
+                            <span class="tech-tag">AI Ethics</span>
+                            <span class="tech-tag">Healthcare AI</span>
+                        </div>
+                        <div class="project-actions">
+                            <button class="btn btn-primary btn-sm project-details-btn" data-project="ibmwatson">
+                                <i class="fas fa-info-circle"></i>
+                                View Details
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Vending Machine Management -->
+                <div class="project-card card" data-category="web" data-reveal>
+                    <div class="project-image">
+                        <div class="project-icons">
+                            <i class="fas fa-shopping-cart"></i>
+                            <i class="fas fa-server"></i>
+                            <i class="fab fa-js"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3 class="project-title">Vending Machine System</h3>
+                            <span class="project-badge web-badge">Web Dev</span>
+                        </div>
+                        <p class="project-description">
+                            Full-stack app for managing campus vending machines with a RESTful Express.js and MySQL
+                            backend.
+                        </p>
+                        <div class="project-features">
+                            <span class="feature">Full-stack App</span>
+                            <span class="feature">CRUD Operations</span>
+                        </div>
+                        <div class="project-tech-stack">
+                            <span class="tech-tag">Express.js</span>
+                            <span class="tech-tag">MySQL</span>
+                        </div>
+                        <div class="project-actions">
+                            <button class="btn btn-primary btn-sm project-details-btn" data-project="vending">
+                                <i class="fas fa-info-circle"></i>
+                                View Details
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- UX/UI Prototyping -->
+                <div class="project-card card" data-category="web" data-reveal>
+                    <div class="project-image">
+                        <div class="project-icons">
+                            <i class="fas fa-mobile-alt"></i>
+                            <i class="fas fa-music"></i>
+                            <i class="fas fa-palette"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3 class="project-title">Music Player UX/UI</h3>
+                            <span class="project-badge web-badge">Design</span>
+                        </div>
+                        <p class="project-description">
+                            Mobile music player design focused on accessibility, usability, and WCAG compliance.
+                        </p>
+                        <div class="project-features">
+                            <span class="feature">User Research</span>
+                            <span class="feature">WCAG Compliance</span>
+                        </div>
+                        <div class="project-tech-stack">
+                            <span class="tech-tag">Figma</span>
+                            <span class="tech-tag">Axure</span>
+                        </div>
+                        <div class="project-actions">
+                            <button class="btn btn-primary btn-sm project-details-btn" data-project="uxui">
+                                <i class="fas fa-info-circle"></i>
+                                View Details
+                            </button>
+                            <a href="https://bfs4ol.axshare.com/?g=4" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                                <i class="fas fa-external-link-alt"></i>
+                                Prototype
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cloud Migration Case Study -->
+                <div class="project-card card" data-category="web" data-reveal>
+                    <div class="project-image">
+                        <div class="project-icons">
+                            <i class="fas fa-cloud"></i>
+                            <i class="fas fa-network-wired"></i>
+                            <i class="fas fa-server"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3 class="project-title">Cloud Migration Strategy</h3>
+                            <span class="project-badge web-badge">Infrastructure</span>
+                        </div>
+                        <p class="project-description">
+                            Migration plan for a mid-sized company with network topology design and service model
+                            recommendations.
+                        </p>
+                        <div class="project-features">
+                            <span class="feature">Migration Planning</span>
+                            <span class="feature">Network Topology</span>
+                        </div>
+                        <div class="project-tech-stack">
+                            <span class="tech-tag">Packet Tracer</span>
+                            <span class="tech-tag">IaaS/PaaS/SaaS</span>
+                        </div>
+                        <div class="project-actions">
+                            <button class="btn btn-primary btn-sm project-details-btn" data-project="cloud">
+                                <i class="fas fa-info-circle"></i>
+                                View Details
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Details Modal -->
+    <div class="modal-overlay" id="projectModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modalTitle">Project Details</h2>
+                <button class="modal-close" onclick="closeModal()" aria-label="Close">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-body" id="modalBody">
+                <!-- Content will be dynamically loaded -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <a href="index.html" class="nav-logo">
+                        <span class="logo-mark">AS</span>
+                        <span class="logo-text">Arushi Sarkar</span>
+                    </a>
+                    <p>Applied AI student and Data Engineer Intern building AI, automation, and data products.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-section">
+                        <h4>Navigation</h4>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="projects.html">Projects</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Connect</h4>
+                        <div class="social-links">
+                            <a href="mailto:arushisarkar73@gmail.com" class="social-link" title="Email" aria-label="Email">
+                                <i class="fas fa-envelope"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/arushi-sarkar-972185305/" class="social-link"
+                                title="LinkedIn" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://github.com/Arushi-Sarkar" class="social-link" title="GitHub"
+                                target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Arushi Sarkar. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
